@@ -20,6 +20,9 @@ module.exports = new Confidence.Store({
             $coerce: 'number',
             $default: 3000
         },
+        router: {
+            stripTrailingSlash: true
+        },
         debug: {
             $filter: 'NODE_ENV',
             $default: {
