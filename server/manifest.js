@@ -18,7 +18,7 @@ module.exports = new Confidence.Store({
         port: {
             $param: 'PORT',
             $coerce: 'number',
-            $default: 3000
+            $default: 5000
         },
         router: {
             stripTrailingSlash: true
