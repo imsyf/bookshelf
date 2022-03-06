@@ -20,6 +20,11 @@ module.exports = new Confidence.Store({
             $coerce: 'number',
             $default: 5000
         },
+        routes: {
+            cors: {
+                origin: ['*']
+            }
+        },
         router: {
             stripTrailingSlash: true
         },
